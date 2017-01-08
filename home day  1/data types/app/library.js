@@ -1,6 +1,7 @@
 module.exports = {
  
    dataTypes: function(arr){
+  //checking for data type "string"
   if(Object.prototype.toString.call(arr) === "[object String]"){
     return arr.length;
   }
