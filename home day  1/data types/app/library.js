@@ -35,6 +35,7 @@ module.exports = {
    else{
      return arr[2];
    }
+   //checking for function data type
   }else if(Object.prototype.toString.call(arr) === "[object Function]"){
     return arr(true);
   }
