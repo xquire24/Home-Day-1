@@ -5,6 +5,7 @@ module.exports = {
   if(Object.prototype.toString.call(arr) === "[object String]"){
     return arr.length;
   }
+  //checking for null and undefined data types
   else if(Object.prototype.toString.call(arr)=== "[object Null]" || Object.prototype.toString.call(arr) === "[object Undefined]"){
     return "no value";
   }
