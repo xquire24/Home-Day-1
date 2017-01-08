@@ -27,6 +27,7 @@ module.exports = {
     }else {
       return"less than 100";
     }
+    //checking for array data types
   }else if(Object.prototype.toString.call(arr)=== "[object Array]"){
    if(arr[2] === "undefined"){
      return "undefined";
