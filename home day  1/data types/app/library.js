@@ -9,6 +9,7 @@ module.exports = {
   else if(Object.prototype.toString.call(arr)=== "[object Null]" || Object.prototype.toString.call(arr) === "[object Undefined]"){
     return "no value";
   }
+  //checking for boolean data types
   else if(Object.prototype.toString.call(arr)=== "[object Boolean]"){
     if(arr === true){
       return true;
@@ -17,6 +18,7 @@ module.exports = {
       return false
     }
   }
+  //checking for number data types
   else if(Object.prototype.toString.call(arr)=== "[object Number]"){
     if(arr === 100){
       return "equal to 100";
